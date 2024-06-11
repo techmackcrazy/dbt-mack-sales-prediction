@@ -29,7 +29,7 @@ models:
     columns: true
   sales_prediction:
     staging:
-      +materialized: table
+      +materialized: view
       +schema: stg
 
   elementary:
