@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_cidades      
+    description: '{{ doc("tbl_cidades_description") }}'
+    config:
+      meta:
+        contains_pii: true
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: cidade_id
+        description: '{{ doc("cidade_id") }}'
+        data_type: int
+        tests:
+          - unique
+          - not_null
+
+      - name: nome_cidade
+        description: '{{ doc("nome_cidade") }}'
+        meta:
+          contains_pii: true
+        data_type: string
+        tests:
+          - not_null
+
+      - name: estado_id
+        data_type: int
+        description: '{{ doc("estado_id") }}'
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null

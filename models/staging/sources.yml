@@ -49,7 +49,7 @@ sources:
         description: '{{ doc("tbl_clientes_description") }}'
         columns:
           - name: id_clientes
-            description: '{{ doc("clientes_id") }}'
+            description: '{{ doc("cliente_id") }}'
             tests:
               - unique
               - not_null
@@ -60,12 +60,12 @@ sources:
               - not_null
 
           - name: endereco
-            description: '{{ doc("clientes_endereco") }}'
+            description: '{{ doc("cliente_endereco") }}'
             tests:
               - not_null
 
           - name: id_concessionarias
-            description: '{{ doc("concessionarias_id") }}'
+            description: '{{ doc("concessionaria_id") }}'
             tests:
               - not_null
 
@@ -85,7 +85,7 @@ sources:
         description: '{{ doc("tbl_concessionarias_description") }}'
         columns:
           - name: id_concessionarias
-            description: '{{ doc("concessionarias_id") }}'
+            description: '{{ doc("concessionaria_id") }}'
             tests:
               - unique
               - not_null
@@ -163,7 +163,7 @@ sources:
               - not_null
 
           - name: id_concessionarias
-            description: '{{ doc("concessionarias_id") }}'
+            description: '{{ doc("concessionaria_id") }}'
             tests:
               - not_null
 
@@ -173,7 +173,7 @@ sources:
               - not_null
 
           - name: id_clientes
-            description: '{{ doc("clientes_id") }}'
+            description: '{{ doc("cliente_id") }}'
             tests:
               - not_null
 
@@ -216,7 +216,7 @@ sources:
               - not_null
 
           - name: id_concessionarias
-            description: '{{ doc("concessionarias_id") }}'
+            description: '{{ doc("concessionaria_id") }}'
             tests:
               - not_null
 
