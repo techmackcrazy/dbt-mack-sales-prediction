@@ -1,0 +1,7 @@
+groups:
+  - name: sales
+    owner:
+      # 'name' or 'email' is required; additional properties allowed
+      email: rahfaeu@gmail.com
+      slack: sales-group
+      github: techmackcrazy/dbt-mack-sales-prediction

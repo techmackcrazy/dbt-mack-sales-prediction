@@ -1,3 +1,5 @@
+{{ config(materialized = 'view') }}
+
 with source as (
     select
         cast(id_estados as int64) as estado_id

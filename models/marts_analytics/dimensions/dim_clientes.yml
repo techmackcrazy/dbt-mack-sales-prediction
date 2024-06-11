@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: dim_clientes     
+    description: '{{ doc("tbl_clientes_description") }}'
+    config:
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: cliente_id
+        description: '{{ doc("cliente_id") }}'
+        data_type: int
+        tests:
+          - unique
+          - not_null
+
+      - name: cliente_nome
+        data_type: string
+        description: '{{ doc("cliente_nome") }}'
+        meta:
+          contains_pii: true
+        tests:
+          - not_null
+      
+      - name: cliente_endereco
+        data_type: string
+        description: '{{ doc("cliente_endereco") }}'
+        meta:
+          contains_pii: true
+        tests:
+          - not_null
+
+      - name: concessionaria_id
+        description: '{{ doc("concessionaria_id") }}'
+        data_type: int
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
