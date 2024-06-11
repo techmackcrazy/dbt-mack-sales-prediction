@@ -86,7 +86,7 @@ Esta coluna contém a chave primária de cada estado contido na tabela estado
 Esta coluna contém o nome de cada estado contido na tabela estado
 {% enddocs %}
 
-{% docs estado_sigla %}
+{% docs sigla %}
 Esta coluna contém as siglas dos estados contidos na tabela estado
 {% enddocs %}
 

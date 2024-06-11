@@ -247,7 +247,7 @@ sources:
               - not_null
 
           - name: sigla
-            description: '{{ doc("estado_sigla") }}'
+            description: '{{ doc("sigla") }}'
             tests:
               - not_null
 

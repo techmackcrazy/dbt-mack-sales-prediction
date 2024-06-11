@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_concessionarias     
+    description: '{{ doc("tbl_concessionarias_description") }}'
+    config:
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: concessionaria_id
+        description: '{{ doc("concessionaria_id") }}'
+        data_type: int
+        tests:
+          - unique
+          - not_null
+
+      - name: concessionaria_nome
+        data_type: string
+        description: '{{ doc("concessionaria_nome") }}'
+        tests:
+          - not_null
+
+      - name: cidade_id
+        data_type: string
+        description: '{{ doc("cidade_id") }}'
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
