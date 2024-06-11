@@ -1,31 +1,35 @@
 version: 2
 
 models:
-  - name: dim_cidades      
-    description: '{{ doc("tbl_cidades_description") }}'
+  - name: stg_veiculos
+    description: '{{ doc("tbl_veiculos_description") }}'
     config:
       group: sales
       contract:
         enforced: true
     columns:
-      - name: cidade_id
-        description: '{{ doc("cidade_id") }}'
+      - name: veiculo_id
+        description: '{{ doc("veiculo_id") }}'
         data_type: int
         tests:
           - unique
           - not_null
 
-      - name: nome_cidade
-        description: '{{ doc("nome_cidade") }}'
-        meta:
-          contains_pii: true
+      - name: veiculos_nome
         data_type: string
+        description: '{{ doc("veiculo_nome") }}'
         tests:
           - not_null
 
-      - name: estado_id
-        data_type: int
-        description: '{{ doc("estado_id") }}'
+      - name: tipo
+        data_type: string
+        description: '{{ doc("veiculo_tipo") }}'
+        tests:
+          - not_null
+
+      - name: valor_sugerido
+        data_type: float
+        description: '{{ doc("veiculo_tipo") }}'
         tests:
           - not_null
 
