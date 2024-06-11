@@ -1,0 +1,262 @@
+version: 2
+
+sources:
+
+  - name: sources
+    config:
+      meta:
+        contains_pii: true
+    description: '{{ doc("sources_description") }}'
+    database: coral-muse-425523-a0
+    schema: postgreslocomack
+    
+    tables:
+      # Tabela cidades
+      - name: cidades
+        description: '{{ doc("tbl_cidades_description") }}'
+        columns:
+          - name: id_cidades
+            description: '{{ doc("cidade_id") }}'
+            tests:
+              - unique
+              - not_null
+
+          - name: cidade
+            description: '{{ doc("nome_cidade") }}'
+            tests:
+              - not_null
+
+          - name: id_estados
+            description: '{{ doc("estado_id") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
+              
+
+      # Tabela clientes
+      - name: clientes
+        meta:
+          contains_pii: true
+        description: '{{ doc("tbl_clientes_description") }}'
+        columns:
+          - name: id_clientes
+            description: '{{ doc("clientes_id") }}'
+            tests:
+              - unique
+              - not_null
+
+          - name: cliente
+            description: '{{ doc("cliente_nome") }}'
+            tests:
+              - not_null
+
+          - name: endereco
+            description: '{{ doc("clientes_endereco") }}'
+            tests:
+              - not_null
+
+          - name: id_concessionarias
+            description: '{{ doc("concessionarias_id") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
+
+
+      # Tabela concessionarias
+      - name: concessionarias
+        description: '{{ doc("tbl_concessionarias_description") }}'
+        columns:
+          - name: id_concessionarias
+            description: '{{ doc("concessionarias_id") }}'
+            tests:
+              - unique
+              - not_null
+
+          - name: concessionaria
+            description: '{{ doc("concessionaria_nome") }}'
+            tests:
+              - not_null
+
+          - name: id_cidades
+            description: '{{ doc("cidade_id") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
+
+
+      # Tabela veiculos
+      - name: veiculos
+        description: '{{ doc("tbl_veiculos_description") }}'
+        columns:
+          - name: id_veiculos
+            description: '{{ doc("veiculos_id") }}'
+            tests:
+              - unique
+              - not_null
+
+          - name: nome
+            description: '{{ doc("veiculos_nome") }}'
+            tests:
+              - not_null
+
+          - name: tipo
+            description: '{{ doc("veiculos_tipo") }}'
+            tests:
+              - not_null
+
+          - name: valor
+            description: '{{ doc("veiculos_valor") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
+
+
+      # Tabela vendas
+      - name: vendas 
+        description: '{{ doc("tbl_vendas_description")}}'
+        columns:
+          - name: id_vendas
+            description: '{{ doc("vendas_id") }}'
+            tests:
+              - unique
+              - not_null
+
+          - name: id_veiculos
+            description: '{{ doc("veiculos_id") }}'
+            tests:
+              - not_null
+
+          - name: id_concessionarias
+            description: '{{ doc("concessionarias_id") }}'
+            tests:
+              - not_null
+
+          - name: id_vendedores
+            description: '{{ doc("vendedores_id") }}'
+            tests:
+              - not_null
+
+          - name: id_clientes
+            description: '{{ doc("clientes_id") }}'
+            tests:
+              - not_null
+
+          - name: valor_pago
+            description: '{{ doc("valor_pago") }}'
+            tests:
+              - not_null
+
+          - name: data_venda
+            description: '{{ doc("data_venda") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
+
+
+      # Tabela vendedores
+      - name: vendedores
+        meta:
+          contains_pii: true
+        description: '{{ doc("tbl_vendedores_description")}}'
+        columns:
+          - name: id_vendedores
+            description: '{{ doc("vendedores_id") }}'
+            tests:
+              - unique
+              - not_null
+              
+          - name: nome
+            description: '{{ doc("vendedores_nome") }}'
+            tests:
+              - not_null
+
+          - name: id_concessionarias
+            description: '{{ doc("concessionarias_id") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
+
+      
+      # Tabela estados
+      - name: estados
+        description: '{{ doc("tbl_estados_description")}}'
+        columns:
+          - name: id_estados
+            description: '{{ doc("estado_id") }}'
+            tests:
+              - unique
+              - not_null
+
+          - name: estado
+            description: '{{ doc("estado_nome") }}'
+            tests:
+              - not_null
+
+          - name: sigla
+            description: '{{ doc("estado_sigla") }}'
+            tests:
+              - not_null
+
+          - name: data_inclusao
+            description: '{{ doc("data_inclusao") }}'
+            tests:
+              - not_null
+
+          - name: data_atualizacao
+            description: '{{ doc("data_atualizacao") }}'
+            tests:
+              - not_null
