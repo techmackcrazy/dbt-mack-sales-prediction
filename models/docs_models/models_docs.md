@@ -90,7 +90,7 @@ Esta coluna contém o nome de cada estado contido na tabela estado
 Esta coluna contém as siglas dos estados contidos na tabela estado
 {% enddocs %}
 
-{% docs clientes_id %}
+{% docs cliente_id %}
 Esta coluna contém a chave primária de cada cliente contida na tabela clientes
 {% enddocs %}
 
@@ -98,11 +98,11 @@ Esta coluna contém a chave primária de cada cliente contida na tabela clientes
 Esta coluna contém o nome de cada cliente contido na tabela clientes
 {% enddocs %}
 
-{% docs clientes_endereco %}
+{% docs cliente_endereco %}
 Esta coluna contém o endereço de cada cliente contido na tabela clientes
 {% enddocs %}
 
-{% docs concessionarias_id %}
+{% docs concessionaria_id %}
 Esta coluna contém a chave primária de cada concessionaria contida na tabela clientes
 {% enddocs %}
 

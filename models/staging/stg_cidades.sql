@@ -1,3 +1,5 @@
+{{ config(materialized = 'view') }}
+
 with source as (
     select
         cast(id_cidades as int64) as cidade_id
