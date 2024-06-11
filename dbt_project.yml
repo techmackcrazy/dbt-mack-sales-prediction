@@ -24,8 +24,6 @@ clean-targets:         # directories to be removed by `dbt clean`
   #   +tags: conformed
 
 models:
-  elementary:
-    +schema: 'elementary'
   +persist_docs:
     relation: true
     columns: true
@@ -33,6 +31,7 @@ models:
     staging:
       +materialized: view
       +schema: stg
-
   
+  elementary:
+    +schema: 'elementary' 
       

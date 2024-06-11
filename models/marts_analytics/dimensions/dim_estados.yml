@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: dim_estados     
+    description: '{{ doc("tbl_estados_description") }}'
+    config:
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: estado_id
+        description: '{{ doc("estado_id") }}'
+        data_type: int
+        tests:
+          - unique
+          - not_null
+
+      - name: estado_nome
+        data_type: string
+        description: '{{ doc("estado_nome") }}'
+        tests:
+          - not_null
+
+      - name: sigla
+        data_type: string
+        description: '{{ doc("sigla") }}'
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
