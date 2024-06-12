@@ -28,7 +28,7 @@ Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende 
 ## Repositórios:
 - [Documentação e Gerenciamento de ADRs](https://github.com/techmackcrazy/ml-sales-prediction)
 
-- [Transformação dos dados DBT Cloud](https://github.com/techmackcrazy/ml-sales-prediction)
+- [Transformação dos dados DBT Cloud](https://github.com/techmackcrazy/dbt-mack-sales-prediction)
 
 ## Objetivos
 1. **Ingestão de Dados**: Desenvolver um pipeline para coletar e armazenar dados de vendas de diversas fontes.
