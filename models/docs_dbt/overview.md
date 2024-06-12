@@ -100,7 +100,8 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 - **Período de Execução**: 2 meses.
 
 ## Arquitetura de Dados
-[Gráfico da arquitetura de dados]
+
+![alt text](../../images/Arquitetura.png "Arquitetura e Stack")
 
 - **Ingestão**: Utilização de Airflow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
