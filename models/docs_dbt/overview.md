@@ -22,8 +22,9 @@ O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da U
 ---
 
 # 🧙 Catapimbas Data
+Resultados surpreendentes a partir dos seus dados!
 
-Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados...
+Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados.
 
 **Estratégia de Dados da Catapimbas Data para Previsão de Vendas**
 
@@ -105,7 +106,7 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 
 ![alt text](../../images/Arquitetura.png "Arquitetura e Stack")
 
-- **Ingestão**: Utilização de Airflow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
+- **Ingestão**: Utilização do Cloud Data Flow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
 - **Modelo de Previsão**: Uso de Python e bibliotecas de machine learning para treinar e validar o modelo preditivo.
 - **Visualização**: Power BI para criar dashboards interativos.
@@ -113,7 +114,7 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 ## Processo de Ingestão de Dados
 1. **Coleta**: Dados são coletados de diversas fontes, incluindo APIs, arquivos CSV e bancos de dados.
 2. **Armazenamento**: Dados brutos são armazenados em um data lake para processamento posterior.
-3. **Orquestração**: Airflow gerencia o fluxo de trabalho de ingestão e armazenamento dos dados.
+3. **Orquestração**: Cloud Data Flow gerencia o fluxo de trabalho de ingestão e armazenamento dos dados.
 
 ## Transformação de Dados
 1. **Limpeza**: Remoção de dados duplicados, tratamento de valores nulos e padronização de formatos.
