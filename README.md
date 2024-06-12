@@ -1,4 +1,5 @@
-# Projeto de Engenharia de Dados - Universidade Mackenzie
+# Projeto do MBA de Engenharia de Dados
+
 ## Projeto de previsão de venda
 
 ![logo Mackenzie](https://seeklogo.com/images/U/Universidade_Presbiteriana_Mackenzie-logo-EE4C00D51D-seeklogo.com.png)

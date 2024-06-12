@@ -1,5 +1,5 @@
 {% docs __overview__ %}
-# Projeto MBA de Engenharia de Dados
+# Projeto do MBA de Engenharia de Dados
 
 ## Projeto de previsão de venda
 
