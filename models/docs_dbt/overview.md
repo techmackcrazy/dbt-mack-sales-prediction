@@ -1,6 +1,8 @@
 {% docs __overview__ %}
-# Projeto de Engenharia de Dados - Universidade Mackenzie
+# Projeto MBA de Engenharia de Dados
+
 ## Projeto de previsão de venda
+
 
 ![logo Mackenzie](https://seeklogo.com/images/U/Universidade_Presbiteriana_Mackenzie-logo-EE4C00D51D-seeklogo.com.png)
 
@@ -23,10 +25,10 @@ O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da U
 
 Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados...
 
-**Estratégia de Dados da Catapimbas Data para Previsão de Vendas no Varejo**
+**Estratégia de Dados da Catapimbas Data para Previsão de Vendas**
 
 **Visão Geral:**
-Na Catapimbas Data, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor varejista. Nossa missão é fornecer soluções de machine learning de ponta que capacitem nossos clientes a prever com precisão as vendas, otimizar inventários e aumentar a eficiência operacional.
+Na Catapimbas Data, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor de vendas. Nossa missão é fornecer soluções de machine learning de ponta que capacitem nossos clientes a prever com precisão as vendas, otimizar inventários e aumentar a eficiência operacional.
 
 **Objetivos Estratégicos:**
 1. **Precisão na Previsão de Vendas:** Desenvolver modelos de machine learning altamente precisos que prevejam as vendas com base em dados históricos, sazonalidade, tendências do mercado e variáveis ​​externas relevantes.
@@ -63,7 +65,7 @@ Na Catapimbas Data, reconhecemos a importância crucial dos dados para impulsion
 3. **Monitoramento Contínuo:** Implementar sistemas de monitoramento contínuo para acompanhar o desempenho dos modelos em produção, identificar desvios e oportunidades de melhoria e garantir que os modelos permaneçam precisos e relevantes ao longo do tempo.
 
 **Conclusão:**
-Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de classe mundial que capacitam nossos clientes a tomar decisões informadas e impulsionar o sucesso no competitivo mercado varejista. Com uma abordagem centrada em dados, expertise técnica e um compromisso com a excelência, estamos prontos para enfrentar os desafios mais exigentes e ajudar nossos clientes a alcançarem novos patamares de sucesso.
+Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de classe mundial que capacitam nossos clientes a tomar decisões informadas e impulsionar o sucesso no competitivo mercado de vendas. Com uma abordagem centrada em dados, expertise técnica e um compromisso com a excelência, estamos prontos para enfrentar os desafios mais exigentes e ajudar nossos clientes a alcançarem novos patamares de sucesso.
 
 ## Repositórios:
 - [Documentação e Gerenciamento de ADRs](https://github.com/techmackcrazy/ml-sales-prediction)
