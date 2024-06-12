@@ -1,4 +1,3 @@
-{% docs __overview__ %}
 # Projeto de Engenharia de Dados - Universidade Mackenzie
 ## Projeto de previsão de venda
 
@@ -132,4 +131,3 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 Este projeto integra várias etapas de engenharia de dados, desde a coleta e transformação de dados até a criação de modelos preditivos e visualizações. O objetivo é fornecer uma solução completa e eficiente para análise e previsão de vendas, utilizando ferramentas modernas e práticas recomendadas na indústria.
 
 ---
-{% enddocs %}
