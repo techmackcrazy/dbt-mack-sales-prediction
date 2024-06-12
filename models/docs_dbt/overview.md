@@ -23,7 +23,47 @@ O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da U
 
 Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados...
 
-[Escrever estratégia de dados]
+**Estratégia de Dados da Catapimbas Datas para Previsão de Vendas no Varejo**
+
+**Visão Geral:**
+Na Catapimbas Datas, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor varejista. Nossa missão é fornecer soluções de machine learning de ponta que capacitem nossos clientes a prever com precisão as vendas, otimizar inventários e aumentar a eficiência operacional.
+
+**Objetivos Estratégicos:**
+1. **Precisão na Previsão de Vendas:** Desenvolver modelos de machine learning altamente precisos que prevejam as vendas com base em dados históricos, sazonalidade, tendências do mercado e variáveis ​​externas relevantes.
+   
+2. **Otimização de Inventário:** Utilizar análises preditivas para determinar os níveis ideais de estoque, minimizando assim os custos associados ao excesso ou à escassez de produtos.
+
+3. **Personalização do Atendimento ao Cliente:** Utilizar dados para entender melhor o comportamento do cliente e oferecer recomendações personalizadas, impulsionando a fidelidade e as vendas repetidas.
+
+4. **Agilidade e Escalabilidade:** Desenvolver uma infraestrutura de dados ágil e escalável que suporte a rápida análise e processamento de grandes volumes de dados, garantindo que nossos modelos sejam adaptáveis ​​e eficazes em ambientes em constante mudança.
+
+**Abordagem Técnica:**
+1. **Coleta de Dados Abrangente:** Implementar processos para coletar dados de vendas, estoques, comportamento do cliente e variáveis ​​externas relevantes, como clima, feriados e eventos sazonais.
+
+2. **Limpeza e Preparação de Dados:** Realizar uma limpeza rigorosa dos dados, identificando e corrigindo inconsistências, outliers e lacunas, além de transformar os dados em formatos adequados para análise.
+
+3. **Seleção de Recursos:** Identificar os recursos mais relevantes e significativos para a previsão de vendas, utilizando técnicas de seleção de recursos e análise exploratória de dados.
+
+4. **Desenvolvimento de Modelos:** Implementar uma variedade de algoritmos de machine learning, como regressão linear, árvores de decisão, redes neurais e modelos de séries temporais, otimizando sua performance por meio de validação cruzada e ajuste de hiperparâmetros.
+
+5. **Validação e Teste:** Validar a precisão e a robustez dos modelos usando conjuntos de dados de teste independentes e avaliando métricas de desempenho, como erro médio absoluto (MAE) e erro médio percentual absoluto (MAPE).
+
+**Governança de Dados:**
+1. **Segurança e Privacidade:** Garantir a conformidade com regulamentações de proteção de dados, como a LGPD no Brasil, GDPR na Europa, e outras regulamentações relevantes, implementando medidas de segurança rigorosas para proteger a privacidade e a integridade dos dados do cliente. 
+
+2. **Ética e Transparência:** Adotar práticas éticas de coleta e uso de dados, garantindo transparência no processo de modelagem e comunicação clara sobre como os dados são usados e interpretados.
+
+3. **Qualidade e Integridade dos Dados:** Estabelecer padrões de qualidade de dados e processos de monitoramento contínuo para garantir a integridade e a confiabilidade dos dados ao longo do tempo.
+
+**Implementação e Suporte:**
+1. **Integração com Sistemas Existentes:** Trabalhar em estreita colaboração com os clientes para integrar nossos modelos de previsão de vendas em seus sistemas de gestão de estoque e vendas existentes, garantindo uma transição suave e uma adoção eficaz.
+
+2. **Treinamento e Capacitação:** Oferecer treinamento e suporte especializado para os usuários finais, capacitando-os a interpretar e utilizar efetivamente os insights gerados pelos modelos de machine learning.
+
+3. **Monitoramento Contínuo:** Implementar sistemas de monitoramento contínuo para acompanhar o desempenho dos modelos em produção, identificar desvios e oportunidades de melhoria e garantir que os modelos permaneçam precisos e relevantes ao longo do tempo.
+
+**Conclusão:**
+Na Catapimbas Datas, estamos comprometidos em fornecer soluções de dados de classe mundial que capacitam nossos clientes a tomar decisões informadas e impulsionar o sucesso no competitivo mercado varejista. Com uma abordagem centrada em dados, expertise técnica e um compromisso com a excelência, estamos prontos para enfrentar os desafios mais exigentes e ajudar nossos clientes a alcançarem novos patamares de sucesso.
 
 ## Repositórios:
 - [Documentação e Gerenciamento de ADRs](https://github.com/techmackcrazy/ml-sales-prediction)
