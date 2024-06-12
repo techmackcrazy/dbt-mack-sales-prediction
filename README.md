@@ -98,6 +98,8 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 
     - **[Elementary](https://www.elementary-data.com/)**: Solução nativa de observabilidade de dados para engenheiros de dados e analytics.
 
+    - **[Slack](https://api.slack.com/docs)**: A plataforma Slack oferece muitas ferramentas para ajudar a aprimorar seus workspaces. Em um nível mais alto, elas podem ser vistas através da lente das automações de fluxo de trabalho e dos aplicativos Slack que não são de fluxo de trabalho.
+
 - **Período de Execução**: 2 meses.
 
 ## Arquitetura de Dados
