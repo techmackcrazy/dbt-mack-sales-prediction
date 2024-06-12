@@ -110,23 +110,23 @@ Esta coluna contém a chave primária de cada concessionaria contida na tabela c
 Esta coluna contém o nome da concessionaria contida na tabela concenssionaria
 {% enddocs %}
 
-{% docs veiculos_id %}
+{% docs veiculo_id %}
 Esta coluna contém a chave primária de cada veiculo contido na tabela veiculo
 {% enddocs %}
 
-{% docs veiculos_nome %}
+{% docs veiculo_nome %}
 Esta coluna contém o nome de cada veiculo contido na tabela veiculo
 {% enddocs %}
 
-{% docs veiculos_tipo %}
+{% docs veiculo_tipo %}
 Esta coluna contém o tipo de cada veiculo contido na tabela veiculo
 {% enddocs %}
 
-{% docs veiculos_valor %}
+{% docs veiculo_valor %}
 Esta coluna contém o valor de cada veiculo contido na tabela veiculo
 {% enddocs %}
 
-{% docs vendas_id %}
+{% docs venda_id %}
 Esta coluna contém a chave primária de cada venda contido na tabela vendas
 {% enddocs %}
 

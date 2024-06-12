@@ -116,23 +116,23 @@ sources:
         description: '{{ doc("tbl_veiculos_description") }}'
         columns:
           - name: id_veiculos
-            description: '{{ doc("veiculos_id") }}'
+            description: '{{ doc("veiculo_id") }}'
             tests:
               - unique
               - not_null
 
           - name: nome
-            description: '{{ doc("veiculos_nome") }}'
+            description: '{{ doc("veiculo_nome") }}'
             tests:
               - not_null
 
           - name: tipo
-            description: '{{ doc("veiculos_tipo") }}'
+            description: '{{ doc("veiculo_tipo") }}'
             tests:
               - not_null
 
           - name: valor
-            description: '{{ doc("veiculos_valor") }}'
+            description: '{{ doc("veiculo_valor") }}'
             tests:
               - not_null
 
@@ -152,13 +152,13 @@ sources:
         description: '{{ doc("tbl_vendas_description")}}'
         columns:
           - name: id_vendas
-            description: '{{ doc("vendas_id") }}'
+            description: '{{ doc("venda_id") }}'
             tests:
               - unique
               - not_null
 
           - name: id_veiculos
-            description: '{{ doc("veiculos_id") }}'
+            description: '{{ doc("veiculo_id") }}'
             tests:
               - not_null
 
