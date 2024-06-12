@@ -19,7 +19,10 @@ O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da U
 
 ---
 
-# 🧙 Catapimbas Data
+# Empresa
+
+![Catapimbas Data](./images/catapimbas_logo.png)
+
 Resultados surpreendentes a partir dos seus dados!
 
 Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados.
