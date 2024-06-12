@@ -23,10 +23,10 @@ O projeto proposto pelos professores do curso de MBA em Engenharia de Dados da U
 
 Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados...
 
-**Estratégia de Dados da Catapimbas Datas para Previsão de Vendas no Varejo**
+**Estratégia de Dados da Catapimbas Data para Previsão de Vendas no Varejo**
 
 **Visão Geral:**
-Na Catapimbas Datas, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor varejista. Nossa missão é fornecer soluções de machine learning de ponta que capacitem nossos clientes a prever com precisão as vendas, otimizar inventários e aumentar a eficiência operacional.
+Na Catapimbas Data, reconhecemos a importância crucial dos dados para impulsionar as operações e as decisões de negócios no setor varejista. Nossa missão é fornecer soluções de machine learning de ponta que capacitem nossos clientes a prever com precisão as vendas, otimizar inventários e aumentar a eficiência operacional.
 
 **Objetivos Estratégicos:**
 1. **Precisão na Previsão de Vendas:** Desenvolver modelos de machine learning altamente precisos que prevejam as vendas com base em dados históricos, sazonalidade, tendências do mercado e variáveis ​​externas relevantes.
@@ -63,12 +63,12 @@ Na Catapimbas Datas, reconhecemos a importância crucial dos dados para impulsio
 3. **Monitoramento Contínuo:** Implementar sistemas de monitoramento contínuo para acompanhar o desempenho dos modelos em produção, identificar desvios e oportunidades de melhoria e garantir que os modelos permaneçam precisos e relevantes ao longo do tempo.
 
 **Conclusão:**
-Na Catapimbas Datas, estamos comprometidos em fornecer soluções de dados de classe mundial que capacitam nossos clientes a tomar decisões informadas e impulsionar o sucesso no competitivo mercado varejista. Com uma abordagem centrada em dados, expertise técnica e um compromisso com a excelência, estamos prontos para enfrentar os desafios mais exigentes e ajudar nossos clientes a alcançarem novos patamares de sucesso.
+Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de classe mundial que capacitam nossos clientes a tomar decisões informadas e impulsionar o sucesso no competitivo mercado varejista. Com uma abordagem centrada em dados, expertise técnica e um compromisso com a excelência, estamos prontos para enfrentar os desafios mais exigentes e ajudar nossos clientes a alcançarem novos patamares de sucesso.
 
 ## Repositórios:
 - [Documentação e Gerenciamento de ADRs](https://github.com/techmackcrazy/ml-sales-prediction)
 
-- [Transformação dos dados DBT Cloud](https://github.com/techmackcrazy/ml-sales-prediction)
+- [Transformação dos dados DBT Cloud](https://github.com/techmackcrazy/dbt-mack-sales-prediction)
 
 ## Objetivos
 1. **Ingestão de Dados**: Desenvolver um pipeline para coletar e armazenar dados de vendas de diversas fontes.
@@ -91,7 +91,7 @@ Na Catapimbas Datas, estamos comprometidos em fornecer soluções de dados de cl
     
     - **[log4brains](https://github.com/thomvaill/log4brains)**: Ferramenta para gerenciar registros de decisões arquiteturais (ADRs).
     
-    - **[Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)**: Plataforma para orquestração de workflows que utilizamos para gerenciar o pipeline de ingestão de dados.
+    - **[Dataflow](https://cloud.google.com/dataflow/docs/overview?hl=pt-br)**: Google Cloud Dataflow é um serviço gerenciado para processamento de dados em tempo real e em lote. Utiliza o modelo de programação do Apache Beam para desenvolver pipelines unificados que podem ser escritos em Java e Python. 
     
     - **[dbt cloud](https://www.getdbt.com/product/dbt-cloud)**: Ferramenta para transformação de dados que permite modelar, transformar e documentar os dados de forma eficiente.
 
