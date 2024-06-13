@@ -168,7 +168,7 @@ sources:
               - not_null
 
           - name: id_vendedores
-            description: '{{ doc("vendedores_id") }}'
+            description: '{{ doc("vendedor_id") }}'
             tests:
               - not_null
 
@@ -205,13 +205,13 @@ sources:
         description: '{{ doc("tbl_vendedores_description")}}'
         columns:
           - name: id_vendedores
-            description: '{{ doc("vendedores_id") }}'
+            description: '{{ doc("vendedor_id") }}'
             tests:
               - unique
               - not_null
               
           - name: nome
-            description: '{{ doc("vendedores_nome") }}'
+            description: '{{ doc("vendedor_nome") }}'
             tests:
               - not_null
 

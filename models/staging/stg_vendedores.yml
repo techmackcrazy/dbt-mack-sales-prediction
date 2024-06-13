@@ -1,35 +1,31 @@
 version: 2
 
 models:
-  - name: dim_veiculos
-    description: '{{ doc("tbl_veiculos_description") }}'
+  - name: stg_vendedores
+    description: '{{ doc("tbl_vendedores_description") }}'
     config:
+      meta:
+        contains_pii: true
       group: sales
       contract:
         enforced: true
     columns:
-      - name: veiculo_id
-        description: '{{ doc("veiculo_id") }}'
+      - name: vendedor_id
+        description: '{{ doc("vendedor_id") }}'
         data_type: int
         tests:
           - unique
           - not_null
 
-      - name: veiculo_nome
+      - name: vendedor_nome
         data_type: string
-        description: '{{ doc("veiculo_nome") }}'
+        description: '{{ doc("vendedor_nome") }}'
         tests:
           - not_null
 
-      - name: tipo
-        data_type: string
-        description: '{{ doc("veiculo_tipo") }}'
-        tests:
-          - not_null
-
-      - name: valor_sugerido
-        data_type: float
-        description: '{{ doc("veiculo_tipo") }}'
+      - name: concessionaria_id
+        data_type: int
+        description: '{{ doc("concessionaria_id") }}'
         tests:
           - not_null
 

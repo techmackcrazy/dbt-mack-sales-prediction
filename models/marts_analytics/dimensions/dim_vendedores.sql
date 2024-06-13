@@ -1,14 +1,13 @@
 {{ config(
     materialized = 'table'
-    , cluster_by = ['veiculo_id']
+    , cluster_by = ['vendedor_id']
     , tags = ['analytics_conformed_dimension_daily']
 ) }}
 
 select
-    veiculo_id
-    , veiculo_nome
-    , tipo
-    , valor_sugerido
+    vendedor_id
+    , vendedor_nome
+    , concessionaria_id
     , data_inclusao
     , data_atualizacao
-from {{ ref('stg_veiculos') }}
+from {{ ref('stg_vendedores') }}
