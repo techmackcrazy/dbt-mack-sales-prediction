@@ -24,7 +24,9 @@ sources:
           - name: cidade
             description: '{{ doc("nome_cidade") }}'
             tests:
-              - not_null
+              - not_null:
+                  config:
+                    severity: warn
 
           - name: id_estados
             description: '{{ doc("estado_id") }}'

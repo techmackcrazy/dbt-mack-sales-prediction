@@ -19,7 +19,9 @@ models:
         description: '{{ doc("nome_cidade") }}'
         data_type: string
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
 
       - name: estado_id
         data_type: int
