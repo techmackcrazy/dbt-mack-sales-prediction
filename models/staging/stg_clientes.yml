@@ -4,6 +4,8 @@ models:
   - name: stg_clientes     
     description: '{{ doc("tbl_clientes_description") }}'
     config:
+      meta:
+        contains_pii: true
       group: sales
       contract:
         enforced: true

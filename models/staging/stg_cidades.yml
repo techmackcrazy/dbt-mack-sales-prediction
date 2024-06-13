@@ -4,8 +4,6 @@ models:
   - name: stg_cidades      
     description: '{{ doc("tbl_cidades_description") }}'
     config:
-      meta:
-        contains_pii: true
       group: sales
       contract:
         enforced: true
@@ -19,8 +17,6 @@ models:
 
       - name: nome_cidade
         description: '{{ doc("nome_cidade") }}'
-        meta:
-          contains_pii: true
         data_type: string
         tests:
           - not_null
