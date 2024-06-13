@@ -111,7 +111,7 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 - **Ingestão**: Utilização do Cloud Data Flow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
 - **Modelo de Previsão**: Uso de Python e bibliotecas de machine learning para treinar e validar o modelo preditivo.
-- **Visualização**: Power BI para criar dashboards interativos.
+- **Visualização**: Tableau para criar dashboards interativos.
 
 ## Processo de Ingestão de Dados
 1. **Coleta**: Dados são coletados de diversas fontes, incluindo APIs, arquivos CSV e bancos de dados.
