@@ -77,7 +77,7 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 ## Objetivos
 1. **Ingestão de Dados**: Desenvolver um pipeline para coletar e armazenar dados de vendas de diversas fontes.
 2. **Transformação de Dados**: Aplicar transformações necessárias para limpar e preparar os dados para análise.
-3. **Data Governance**: Aplicar conceitos e diretrizes de governança de dados
+3. **Data Governance**: Aplicar conceitos e diretrizes de governança de dados.
 4. **Modelo de Previsão de Vendas**: Criar e treinar um modelo preditivo para estimar futuras vendas.
 5. **Dashboard**: Construir um dashboard para visualizar as tendências de vendas e previsões.
 
@@ -111,8 +111,8 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 
 - **Ingestão**: Utilização do Cloud Data Flow para orquestrar a coleta de dados de várias fontes e armazenamento em um data lake.
 - **Transformação**: DBT para aplicar transformações e criar modelos de dados limpos e preparados.
-- **Modelo de Previsão**: Uso de Python e bibliotecas de machine learning para treinar e validar o modelo preditivo.
-- **Visualização**: Power BI para criar dashboards interativos.
+- **Modelo de Previsão**: Uso de Streamlit para a criação rápida de aplicativos web para visualização de dados, prototipagem e implementação de modelos de machine learning.
+- **Visualização**: Tableau para criar dashboards interativos.
 
 ## Processo de Ingestão de Dados
 1. **Coleta**: Dados são coletados de diversas fontes, incluindo APIs, arquivos CSV e bancos de dados.
