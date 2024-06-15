@@ -130,7 +130,7 @@ Esta coluna contém o valor de cada veiculo contido na tabela veiculo
 Esta coluna contém a chave primária de cada venda contido na tabela vendas
 {% enddocs %}
 
-{% docs valor_pago %}
+{% docs valor_venda %}
 Esta coluna contém o valor pago em cada venda na tabela vendas
 {% enddocs %}
 

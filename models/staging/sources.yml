@@ -180,7 +180,7 @@ sources:
               - not_null
 
           - name: valor_pago
-            description: '{{ doc("valor_pago") }}'
+            description: '{{ doc("valor_venda") }}'
             tests:
               - not_null
 
