@@ -22,7 +22,7 @@ models:
           - not_null
 
       - name: cidade_id
-        data_type: string
+        data_type: int
         description: '{{ doc("cidade_id") }}'
         tests:
           - not_null

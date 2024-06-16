@@ -1,0 +1,92 @@
+version: 2
+
+models:
+  - name: obt_fact_vendas
+    description: '{{ doc("tbl_obt_fact_vendas") }}'
+    config:
+      meta:
+        contains_pii: false
+        owner: "@Chad Smith"
+        model_maturity: Produção
+      group: sales
+      contract:
+        enforced: true
+    columns:
+      - name: venda_id
+        description: '{{ doc("venda_id") }}'
+        data_type: int
+        tests:
+          - unique
+          - not_null
+
+      - name: veiculo_nome
+        data_type: string
+        description: '{{ doc("veiculo_nome") }}'
+        tests:
+          - not_null
+
+      - name: tipo
+        data_type: string
+        description: '{{ doc("veiculo_tipo") }}'
+        tests:
+          - not_null
+
+      - name: valor_sugerido
+        data_type: float
+        description: '{{ doc("veiculo_valor") }}'
+        tests:
+          - not_null
+
+      - name: concessionaria_nome
+        data_type: string
+        description: '{{ doc("concessionaria_nome") }}'
+        tests:
+          - not_null
+
+      - name: concessionaria_cidade
+        data_type: string
+        description: '{{ doc("concessionaria_cidade") }}'
+        tests:
+          - not_null
+
+      - name: vendedor_nome
+        data_type: string
+        description: '{{ doc("vendedor_nome") }}'
+        tests:
+          - not_null
+
+      - name: cliente_nome
+        data_type: string
+        description: '{{ doc("cliente_nome") }}'
+        tests:
+          - not_null
+
+      - name: cliente_endereco
+        data_type: string
+        description: '{{ doc("cliente_endereco") }}'
+        tests:
+          - not_null
+
+      - name: valor_venda
+        data_type: numeric
+        description: '{{ doc("valor_venda") }}'
+        tests:
+          - not_null
+
+      - name: data_venda
+        description: '{{ doc("data_venda") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_inclusao
+        description: '{{ doc("data_inclusao") }}'
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: data_atualizacao
+        description: '{{ doc("data_atualizacao") }}'
+        data_type: timestamp
+        tests:
+          - not_null

@@ -54,6 +54,16 @@ Esta tabela contém os dados dos vendedores, como nome e a concessionaria
 Esta tabela contém os dados de estados, como nome e sigla.
 {% enddocs %}
 
+{% docs tbl_obt_fact_vendas %}
+Esta tabela contém todos os dados da venda e é dedicada para utilização em modelos de machine learning
+Ela esta estruturada seguindo a modelagem OBT (One Big Table)
+{% enddocs %}
+
+{% docs tbl_fact_vendas %}
+Esta tabela está estruturada no modelo star schema e contém as chaves subistituta para acessar as dimensões
+Ideal para utilizar nos relatórios de BI (Business Intelligence)
+{% enddocs %}
+
 <!--  -->
 
 <!-- Descrições colunas genéricas -->
@@ -108,6 +118,10 @@ Esta coluna contém a chave primária de cada concessionaria contida na tabela c
 
 {% docs concessionaria_nome %}
 Esta coluna contém o nome da concessionaria contida na tabela concenssionaria
+{% enddocs %}
+
+{% docs concessionaria_cidade %}
+Esta coluna contém o nome da cidade da concessionaria contida na tabela concenssionaria
 {% enddocs %}
 
 {% docs veiculo_id %}
