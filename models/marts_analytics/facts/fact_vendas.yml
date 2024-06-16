@@ -2,12 +2,12 @@ version: 2
 
 models:
   - name: fact_vendas
-    description: '{{ doc("tbl_vendas_description") }}'
+    description: '{{ doc("tbl_fact_vendas") }}'
     config:
       meta:
         contains_pii: false
-        owner: "@carol"
-        model_maturity: in prod
+        owner: "@Chad Smith"
+        model_maturity: Produção
       group: sales
       contract:
         enforced: true
@@ -36,6 +36,15 @@ models:
           - relationships:
               to: ref('dim_concessionarias')
               field: concessionaria_id
+
+      - name: cidade_id
+        data_type: int
+        description: '{{ doc("cidade_id") }}'
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_cidades')
+              field: cidade_id
 
       - name: vendedor_id
         data_type: int

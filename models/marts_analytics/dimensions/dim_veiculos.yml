@@ -29,7 +29,7 @@ models:
 
       - name: valor_sugerido
         data_type: float
-        description: '{{ doc("veiculo_tipo") }}'
+        description: '{{ doc("veiculo_valor") }}'
         tests:
           - not_null
 
