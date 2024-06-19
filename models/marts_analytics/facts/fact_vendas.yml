@@ -14,13 +14,13 @@ models:
     columns:
       - name: venda_id
         description: '{{ doc("venda_id") }}'
-        data_type: int
+        data_type: int64
         tests:
           - unique
           - not_null
 
       - name: veiculo_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("veiculo_id") }}'
         tests:
           - not_null
@@ -29,7 +29,7 @@ models:
               field: veiculo_id
 
       - name: concessionaria_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("concessionaria_id") }}'
         tests:
           - not_null
@@ -38,7 +38,7 @@ models:
               field: concessionaria_id
 
       - name: cidade_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("cidade_id") }}'
         tests:
           - not_null
@@ -47,7 +47,7 @@ models:
               field: cidade_id
 
       - name: vendedor_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("vendedor_id") }}'
         tests:
           - not_null
@@ -56,7 +56,7 @@ models:
               field: vendedor_id
 
       - name: cliente_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("cliente_id") }}'
         tests:
           - not_null
