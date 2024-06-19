@@ -1,7 +1,6 @@
 {{ config(
     materialized = 'table'
     , cluster_by = ['cliente_id']
-    , full_refresh = true
     , tags = ['analytics_conformed_dimension_daily']
     , labels = {'contains_pii': 'yes'}
 ) }}
