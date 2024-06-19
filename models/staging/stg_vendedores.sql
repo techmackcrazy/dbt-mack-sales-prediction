@@ -9,6 +9,11 @@ with source as (
         , timestamp_trunc(data_inclusao, minute) as data_inclusao
         , timestamp_trunc(coalesce(data_atualizacao, data_inclusao), minute) as data_atualizacao
     from {{ source('sources', 'vendedores') }}
+    qualify
+        row_number() over(
+            partition by vendedor_id
+            order by data_atualizacao desc
+        ) = 1
 )
 select *
 from source
