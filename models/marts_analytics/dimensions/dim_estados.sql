@@ -1,7 +1,6 @@
 {{ config(
     materialized = 'table'
     , cluster_by = ['estado_id']
-    , full_refresh = true
     , tags = ['analytics_conformed_dimension_daily']
 ) }}
 
