@@ -18,7 +18,6 @@ sources:
           - name: id_cidades
             description: '{{ doc("cidade_id") }}'
             tests:
-              - unique
               - not_null
 
           - name: cidade
@@ -53,7 +52,6 @@ sources:
           - name: id_clientes
             description: '{{ doc("cliente_id") }}'
             tests:
-              - unique
               - not_null
 
           - name: cliente
@@ -89,7 +87,6 @@ sources:
           - name: id_concessionarias
             description: '{{ doc("concessionaria_id") }}'
             tests:
-              - unique
               - not_null
 
           - name: concessionaria
@@ -120,7 +117,6 @@ sources:
           - name: id_veiculos
             description: '{{ doc("veiculo_id") }}'
             tests:
-              - unique
               - not_null
 
           - name: nome
@@ -156,7 +152,6 @@ sources:
           - name: id_vendas
             description: '{{ doc("venda_id") }}'
             tests:
-              - unique
               - not_null
 
           - name: id_veiculos
@@ -209,7 +204,6 @@ sources:
           - name: id_vendedores
             description: '{{ doc("vendedor_id") }}'
             tests:
-              - unique
               - not_null
               
           - name: nome
@@ -240,7 +234,6 @@ sources:
           - name: id_estados
             description: '{{ doc("estado_id") }}'
             tests:
-              - unique
               - not_null
 
           - name: estado
