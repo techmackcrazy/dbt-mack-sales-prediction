@@ -12,7 +12,7 @@ models:
     columns:
       - name: cliente_id
         description: '{{ doc("cliente_id") }}'
-        data_type: int
+        data_type: int64
         tests:
           - unique
           - not_null
@@ -35,7 +35,7 @@ models:
 
       - name: concessionaria_id
         description: '{{ doc("concessionaria_id") }}'
-        data_type: int
+        data_type: int64
         tests:
           - not_null
 

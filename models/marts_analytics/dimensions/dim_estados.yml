@@ -10,7 +10,7 @@ models:
     columns:
       - name: estado_id
         description: '{{ doc("estado_id") }}'
-        data_type: int
+        data_type: int64
         tests:
           - unique
           - not_null
