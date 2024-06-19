@@ -10,7 +10,7 @@ models:
     columns:
       - name: cidade_id
         description: '{{ doc("cidade_id") }}'
-        data_type: int
+        data_type: int64
         tests:
           - unique
           - not_null
@@ -26,7 +26,7 @@ models:
                 severity: error
 
       - name: estado_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("estado_id") }}'
         tests:
           - not_null

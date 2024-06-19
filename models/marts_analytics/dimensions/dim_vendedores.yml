@@ -12,7 +12,7 @@ models:
     columns:
       - name: vendedor_id
         description: '{{ doc("vendedor_id") }}'
-        data_type: int
+        data_type: int64
         tests:
           - unique
           - not_null
@@ -26,7 +26,7 @@ models:
           - not_null
 
       - name: concessionaria_id
-        data_type: int
+        data_type: int64
         description: '{{ doc("concessionaria_id") }}'
         tests:
           - not_null
