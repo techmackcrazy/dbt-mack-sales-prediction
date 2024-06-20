@@ -138,3 +138,6 @@ Na Catapimbas Data, estamos comprometidos em fornecer soluções de dados de cla
 Este projeto integra várias etapas de engenharia de dados, desde a coleta e transformação de dados até a criação de modelos preditivos e visualizações. O objetivo é fornecer uma solução completa e eficiente para análise e previsão de vendas, utilizando ferramentas modernas e práticas recomendadas na indústria.
 
 ---
+
+# Dashboard
+![image](https://github.com/techmackcrazy/dbt-mack-sales-prediction/assets/38737636/1b44c452-bb64-4d1d-a95a-26effb2e2bb2)
