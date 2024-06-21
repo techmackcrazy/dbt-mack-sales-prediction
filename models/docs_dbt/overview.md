@@ -29,6 +29,19 @@ Resultados surpreendentes a partir dos seus dados!
 
 Somos uma empresa que te ajuda a encontrar valor nos seus dados e te surpreende com resultados.
 
+Missão: Na Catapimbas Datas, nossa missão é capacitar empresas no setor varejista com soluções de dados de ponta, impulsionando a precisão nas previsões de vendas, otimizando inventários e personalizando o atendimento ao cliente. Com uma abordagem centrada em dados, buscamos transformar informações em insights acionáveis que impulsionem o sucesso dos nossos clientes e os ajudem a prosperar em um mercado em constante evolução.
+
+Visão: Nossa visão é sermos reconhecidos como líderes globais em soluções de dados para o varejo, oferecendo tecnologia de ponta e expertise técnica para prever tendências, maximizar eficiências operacionais e proporcionar experiências excepcionais aos clientes. Estamos comprometidos em moldar o futuro do varejo por meio da inovação contínua, da excelência em análise de dados e do compromisso com o sucesso dos nossos clientes.
+
+Valores:
+1.	Excelência: Buscamos a excelência em tudo o que fazemos, desde a qualidade dos nossos produtos até o suporte prestado aos nossos clientes, sempre buscando superar as expectativas e alcançar os mais altos padrões de desempenho.
+2.	Inovação: Estamos comprometidos com a inovação contínua, buscando constantemente novas maneiras de aplicar tecnologias emergentes e abordagens avançadas de análise de dados para resolver os desafios mais complexos do mercado varejista.
+3.	Transparência: Valorizamos a transparência em todas as nossas interações, garantindo que nossos clientes entendam completamente nossos processos, métodos e resultados, promovendo assim uma parceria baseada na confiança e na integridade.
+4.	Colaboração: Reconhecemos o poder da colaboração e trabalhamos em estreita parceria com nossos clientes para entender suas necessidades exclusivas, adaptar nossas soluções e garantir o sucesso mútuo.
+5.	Ética: Agimos com integridade e ética em todas as nossas atividades, aderindo aos mais altos padrões de conduta profissional e garantindo que nossas práticas de dados sejam transparentes, responsáveis e respeitosas da privacidade do indivíduo.
+Esses elementos - missão, visão e valores - refletem nosso compromisso em liderar o setor de análise de dados para varejo, impulsionando o sucesso dos nossos clientes por meio de soluções inovadoras, excelência operacional e uma cultura fundamentada em integridade e colaboração.
+
+
 **Estratégia de Dados da Catapimbas Data para Previsão de Vendas**
 
 **Visão Geral:**
