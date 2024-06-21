@@ -1,6 +1,6 @@
 {{ 
     config(
-        materialized = 'incremetal'
+        materialized = 'incremental'
         , on_schema_change='fail'
         , full_refresh = true
         , unique_key='venda_id'
