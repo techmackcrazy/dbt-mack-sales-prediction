@@ -1,7 +1,8 @@
 {{ 
     config(
-        materialized = 'incremental'
+        materialized = 'incremetal'
         , on_schema_change='fail'
+        , full_refresh = true
         , unique_key='venda_id'
     ) 
 }}
